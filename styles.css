@@ -85,7 +85,7 @@ main {
   align-items: flex-start;
 }
 
-.plan-text h3 {
+.plan-text h2 {
   font-weight: 900;
   color: var(--dark-blue);
   font-size: 1rem;
@@ -122,14 +122,14 @@ button:hover {
   background-color: var(--hover);
 }
 
-.info-box h5 {
+.info-box h3 {
   font-size: 1rem;
   color: var(--desaturated-blue);
   font-weight: 900;
   cursor: pointer;
 }
 
-.info-box h5:hover {
+.info-box h3:hover {
   color: var(--dark-blue);
 }
 

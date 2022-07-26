@@ -8,23 +8,13 @@
   <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <main>
-    <div class="illustration-box"></div>
+    <div class="illustration-box">
+      <img src="./images/illustration-hero.svg" alt="illustration hero">
+    </div>
     <div class="info-box">
       <h1>Order Summary</h1>
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
@@ -32,8 +22,10 @@
       <div class="plan-box">
         <div class="left">
           <img src="./images/icon-music.svg" alt="music icon">
-          <h3>Annual Plan</h3>
-          <p>$59.99/year</p>
+          <div class="plan-text">
+            <h3>Annual Plan</h3>
+            <p>$59.99/year</p>
+          </div>
         </div>
         <a href="#">Change</a>
       </div>
@@ -41,14 +33,13 @@
       <button>Proceed to Payment</button>
       <h5>Cancel Order</h5>
     </div>
-
   </main>
-
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/itsechi" target="_blank">itsechi</a>.
   </div>
+
 </body>
 
 </html>

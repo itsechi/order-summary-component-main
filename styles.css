@@ -146,6 +146,11 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+  body {
+    background: var(--pale-blue) url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   main {
     width: 340px;
     height: 600px;
